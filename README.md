@@ -32,12 +32,31 @@ app.run(token)
 ## 🛠️​​ Required flags
 
 ```js
-import { Intents, Events, ActivityType } from "@burxk/discordjs"
+import { Intents, Events, ActivityType, StatusType } from "@burxk/discordjs"
 
 Intents.All => All intents
 
 Events.Ready
 
 ActivityType.Watching
+
+StatusType.Idle
+```
+
+## 🔨​  Send message to channel
+
+```js
+
+// Send easy message
+
+msg.reply()
+interaction.send()
+
+
+app.on(Events.MessageCreate, (msg)=> {
+
+	if(msg.content = "hello") msg.send("welcome")
+	
+})
 ```
 
