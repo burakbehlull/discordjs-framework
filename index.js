@@ -1,9 +1,9 @@
-import { Client } from './lib/gateway.js';
+import { App } from './lib/gateway.js';
 import { Events, Intents, ActivityType } from './lib/bits.js';
 
 
 export {
-	Client,
+	App,
 	Events,
 	Intents,
 	ActivityType

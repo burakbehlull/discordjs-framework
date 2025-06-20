@@ -22,11 +22,11 @@ npm i @burxk/discordjs
 ## 🔨​  Kullanım
 
 ```js
-import { Client } from "@burxk/discordjs"
+import { App } from "@burxk/discordjs"
 
-const client = new Client({intents})
+const app = new App({intents})
 
-client.connect(token)
+app.run(token)
 ```
 
 ## 🛠️​​ Required flags
