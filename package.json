@@ -1,0 +1,17 @@
+{
+  "name": "@burxk/discordjs",
+  "version": "1.0.1",
+  "description": "A minimal Discord Client is a simple and extensible Discord bot framework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.2"
+  }
+}
