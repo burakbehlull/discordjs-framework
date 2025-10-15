@@ -1,6 +1,6 @@
 {
   "name": "@burxk/discordjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A minimal Discord Client is a simple and extensible Discord bot framework",
   "main": "index.js",
   "type": "module",

@@ -60,3 +60,19 @@ app.on(Events.MessageCreate, (msg)=> {
 })
 ```
 
+## Uses embed builder class
+
+```js
+import { EmbedBuilder } from "@burxk/discordjs"
+
+new EmbedBuilder()
+	  .setTitle('Slash Embed')
+      .setDescription('Slash komutundan yanıt')
+      .setColor('#ff66cc')
+	  .build()
+	 
+// other
+.setFooter()
+.setAuthor()
+```
+
